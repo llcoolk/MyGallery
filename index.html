@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <hmtl lang="en">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,35 +30,19 @@
           <i class="material-icons">menu</i>
         </a>
         <ul class="right hide-on-med-and-down">
-          <li>
-            <a href="#">facebook</a>
-          </li>
-          <li>
-            <a href="#">twitter</a>
-          </li>
-          <li>
-            <a href="#">instagram</a>
-          </li>
-          <li>
-            <a href="#">github</a>
-          </li>
+          <li><a href="#">facebook</a></li>
+          <li><a href="#">twitter</a></li>          
+          <li><a href="#">instagram</a></li>
+          <li><a href="#">github</a></li>
         </ul>
       </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-      <li>
-        <a href="#">facebook</a>
-      </li>
-      <li>
-        <a href="#">twitter</a>
-      </li>
-      <li>
-        <a href="#">instagram</a>
-      </li>
-      <li>
-        <a href="#">github</a>
-      </li>
+      <li><a href="#">facebook</a></li>
+      <li><a href="#">twitter</a></li>
+      <li><a href="#">instagram</a></li>
+      <li><a href="#">github</a></li>
     </ul>
 
     <div class="container">
@@ -80,9 +65,11 @@
         <div class="col-3" "col-md-6" "col-sm-12">
           <img src="./img/pexels-photo-967016.jpeg" alt="">
         </div>
-        <div class="col-3" "col-md-6">
-          <img src="./img/wood-stool-vintage-wooden.jpg" alt="">
-        </div>
+        <div class="col-3" "col-md-6" "col-sm-12">
+            <div class="video-container">
+              <iframe width="400" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            </div>
+          </div>  
         <div class="col-3" "col-md-6">
           <img src="./img/pexels-photo-276678.jpeg" alt="">
         </div>
@@ -91,59 +78,41 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="video-container">
-          <div "col-3" "col-md-6""col-sm-12">
-            <video width="400" controls>
-              <source src="https://www.bigbuckbunny.org/mov_bbb.mp4" type="video/mp4">
-              <source src="https://www.bigbuckbunny.org/mov_bbb.ogg" type="video/ogg"> Your browser does not support HTML5 video.
-            </video>
-
-            <p>
-              Video courtesy of
-              <a href="https://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
-            </p>
-
-            <!-- <video autoplay controls poster="images/video-poster.jpg">
-              <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4" />
-              <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm" />
-              <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg" />
-              <img src="images/video-placeholder.png" title="Your browser does not support the <video> tag"> -->
-            </video>
-
+      <div class="row"> 
+          <div class="col-3" "col-md-6">
+            <img src="./img/wood-stool-vintage-wooden.jpg" alt="">
           </div>
           <div class="col-3" "col-md-6" "col-sm-12">
-            <video width="1324" height="745px" src="http://mazwai.com/system/posts/videos/000/000/230/preview_mp4/travelpockets_iceland_land_of_fire_and_ice.mp4?1528191920" type="video/mp4" />
-          </div>
-          <div class="col-3" "col-md-6" "col-sm-12">
-            <video src="http://mazwai.com/system/posts/videos/000/000/229/original/omote_iceland__an_iceland_venture.mp4?1528050680" type="video/mp4" />
-          </div>
-          <div class="col-3" "col-md-6" "col-sm-12">
-            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
+              <img src="./img/pexels-photo-358572.jpeg" alt="">  
+          </div>     
 
-          </div>
-        </div>
+          <div class="col-3" "col-md-6" "col-sm-12">
+            <div class="video-container">
+              <video width="400" controls>
+                <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" type="video/mp4" />
+                <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm" />
+                <source src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg" />
+                <img src="images/video-placeholder.png"/>Your browser does not support the video
+              </video>
+            </div>
+          </div> 
+
+          <div class="col-3" "col-md-6" "col-sm-12">
+              <img src="./img/pexels-photo-669735.jpeg" alt="">
+          </div>             
       </div>
+    </div>
 
-      <!-- sticky footer -->
       <div class="footer">
         <p>contact:
           <a href="mailto:leenkim@alumni.usc.edu">leenkim@alumni.usc.edu</a>
         </p>
       </div>
+
       <script src="script.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
-
-      <!-- <video src="video-main.mp4" height="547" width="972"></video>        
-
-  <div class="player">
-    <video src="video-main.mp4" height="168"
-           width="300" controls></video>
- </div> -->
-
 
   </body>
 
